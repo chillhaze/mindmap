@@ -79,3 +79,9 @@ h6 {
     font-weight: 400;
 }
 /*---RESET TO ZERO---*/
+body {
+    background-color: rgb(231, 59, 59);
+}
+header {
+    background-color: rgb(231, 59, 59);
+}
