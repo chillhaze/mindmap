@@ -284,6 +284,31 @@ body {
   text-align: center;
 }
 
+.footer-wrapper {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-text {
+  font-size: 11px;
+  font-style: italic;
+  padding-top: 20px;
+}
+
+.footer-text span {
+  color: rgb(250, 116, 7);
+  font-weight: 600;
+  font-style: initial;
+}
+
+.footer-year {
+  font-size: 11px;
+  font-style: italic;
+  padding: 10px 0 25px;
+}
+
 /* Media */
 @media (max-width: 767px) {
   .header-wrapper {
@@ -339,5 +364,15 @@ body {
 
   .chapter {
     text-align: center;
+  }
+
+  .footer-wrapper {
+    padding: 20px;
+  }
+
+  .footer-year {
+    font-size: 11px;
+    font-style: italic;
+    padding: 5px 0 15px;
   }
 }
