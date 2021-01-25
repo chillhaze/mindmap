@@ -278,6 +278,12 @@ body {
   text-align: center;
 }
 
+/* Footer section */
+
+.footer {
+  text-align: center;
+}
+
 /* Media */
 @media (max-width: 767px) {
   .header-wrapper {
