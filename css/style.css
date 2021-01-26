@@ -353,7 +353,7 @@ body {
 }
 
 /* Media */
-@media (max-width: 767px) {
+@media (max-width: 769px) {
   .header-wrapper {
     padding: 10px;
   }
@@ -403,6 +403,22 @@ body {
     padding: 20px 10px;
     text-align: center;
     border: 0.1px solid rgba(250, 116, 7, 0.26);
+  }
+
+  .nav-section {
+    justify-content: flex-start;
+    align-items: inherit;
+    flex-wrap: wrap;
+
+    padding: 10px 0;
+  }
+
+  .nav-title {
+    margin-bottom: 10px;
+  }
+
+  .nav-item span {
+    padding-right: 5px;
   }
 
   .chapter {
