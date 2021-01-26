@@ -87,6 +87,10 @@ body {
   color: rgb(59, 55, 55);
 }
 
+.hided-part {
+  display: none;
+}
+
 .container {
   max-width: 100%;
   max-width: 1200px;
@@ -206,9 +210,6 @@ body {
 }
 
 /* About section */
-.about-section h3 {
-  display: none;
-}
 
 .about-section {
   min-height: 100px;
