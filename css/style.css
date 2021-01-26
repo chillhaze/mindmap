@@ -206,6 +206,9 @@ body {
 }
 
 /* About section */
+.about-section h3 {
+  display: none;
+}
 
 .about-section {
   min-height: 100px;
