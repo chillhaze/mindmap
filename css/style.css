@@ -304,6 +304,11 @@ body {
   margin: 10px 0;
 }
 
+.chapter-list-title span {
+  color: rgb(250, 116, 7);
+  font-style: italic;
+}
+
 .list-text {
   padding: 0px 20px;
 }
